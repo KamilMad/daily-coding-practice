@@ -1,5 +1,6 @@
 import searching.BinarySearch;
 import sorting.BubbleSort;
+import sorting.InsertionSort;
 import sorting.SelectionSort;
 
 import java.util.Arrays;
@@ -13,8 +14,11 @@ public class Main {
 
        // BubbleSort bubbleSort = new BubbleSort();
        // bubbleSort.BubbleSort(numbers);
-        SelectionSort selectionSort = new SelectionSort();
-        selectionSort.sort(numbers);
+//        SelectionSort selectionSort = new SelectionSort();
+//        selectionSort.sort(numbers);
+
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sort(numbers);
         System.out.println();
         Arrays.stream(numbers).forEach(e -> System.out.print(e + ","));
 
