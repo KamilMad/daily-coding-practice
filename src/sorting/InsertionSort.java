@@ -5,6 +5,7 @@ public class InsertionSort {
     public void sort(int[] array) {
 
         int currentValue;
+
         // iterate over unsorted part
         // i = 1 because first element is 'sorted'
         for (int i = 1; i < array.length; i++) {
