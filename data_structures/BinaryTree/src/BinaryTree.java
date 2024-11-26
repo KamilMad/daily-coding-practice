@@ -55,7 +55,7 @@ public class BinaryTree {
 
     public Node deleteHelper(Node root, int data) {
         if (root == null) {
-            return root; //Find why Maybe because if is null then return null and if not then just return the value
+            return root; //Find why. Maybe because if is null then return null and if not then just return the value
         }
 
         if (data < root.getData()) {
