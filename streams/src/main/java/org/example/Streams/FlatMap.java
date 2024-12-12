@@ -1,4 +1,4 @@
-package Streams;
+package org.example.Streams;
 
 import java.util.List;
 import java.util.function.Function;
